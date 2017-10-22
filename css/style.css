@@ -1,0 +1,155 @@
+	body {
+	    font-family: 微軟正黑體;
+	    /*
+	就決定是你ㄌ
+		*/
+	}
+
+	h1 {
+	    color: blue;
+	    font-size: 35px;
+	    /*border: 1px solid black;*/
+	}
+
+	h2 {
+	    border-left: 2px solid red;
+	    border-bottom: 2px solid red;
+	}
+
+	p {
+	    color: red;
+	    font-family: arial;
+	    font-size: 18px;
+	    line-height: 20px;
+	    text-indent: 36px;
+	    /*縮排*/
+	    text-decoration: underline;
+	    /*line-through是刪除線*/
+	    border: dashed;
+	}
+
+	.wrap {
+	    width: 1100px;
+	    margin: 0 auto;
+	}
+
+	.menu {
+	    width: 200px;
+	    height: 900px;
+	    background: pink;
+	    float: left;
+	}
+
+	.content {
+	    width: 900px;
+	    height: 900px;
+	    float: left;
+	}
+
+	.header {
+	    width: 1100px;
+	    height: 200px;
+	    background-color: orange;
+	}
+
+	.footer {
+	    width: 1100px;
+	    height: 100px;
+	    background: gray;
+	}
+
+	.clearfix {
+	    clear: both;
+	}
+/*
+	.test {
+	    margin: 0;
+	    m0
+	    margin-left: 10px;
+	    ml10
+	    background: #000;
+	    background: #000
+	    color: #fff;
+	    c#fff
+	    float: left;
+	    fl:l
+	    position: relative;
+	    pos-r
+	    font-size: 12px;
+	    fz12
+	}
+*/
+	.button1{
+		color: #ccc;
+		background: #000;
+		border-radius: 10px;
+		padding: 10px 20px;
+		transition: 1s;
+		text-decoration: none;
+	}
+	.button1:hover{
+		color:#000;
+		background: #ccc;
+	}
+	.text{
+		display: none;
+	}
+	.img{
+		opacity: 0;
+		width: 0px;
+		transition: all 1s;
+	}
+	.active{
+		width: 35px;
+		height: 1000px;
+		display: block;
+		color: #000;
+		opacity: 1;
+		font-size:50px;
+		background-color:orange; 
+	}
+	.box{
+		position: relative;
+		width: 200px;
+		height: 130px;
+		border: 1px solid blue;
+		overflow: hidden;
+	}
+	.box:hover .title{
+		bottom: 0;
+	}
+	.title{
+		position: absolute;
+		background: #000;
+		color:#fff;
+		text-align: center;
+		padding: 5px 20px;
+		bottom: -40px;
+		transition: all 1s;
+	}
+	.box1{
+		position: relative;
+		width: 200px;
+		height: 130px;
+		border: 1px solid blue;
+		overflow: hidden;
+	}
+	.title1{
+		position: absolute;
+		background: #000;
+		color:#fff;
+		text-align: center;
+		padding: 20px 20px;
+		bottom: 0px;
+	}
+	/*
+	a{
+		color:red;
+	}
+	a:hover{
+		color:blue;
+		font-size: 34px;
+		border:dotted;
+	}
+	h50+tab = height:50px;
+	*/
